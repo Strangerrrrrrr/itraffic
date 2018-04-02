@@ -4,7 +4,7 @@ include_once 'conn.php';
 ?>
 <html>
 <head>
-<title>½»Í¨Î¥ÕÂÒ»Õ¾Ê½´¦ÀíÏµÍ³</title>
+<title>äº¤é€šè¿ç« ä¸€ç«™å¼å¤„ç†ç³»ç»Ÿ</title>
 
 <LINK href="qtimages/style.css" type=text/css rel=stylesheet>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
@@ -19,19 +19,19 @@ function checklog()
 {
 if(document.userlog.username.value=="")
 {
-	alert("ÇëÊäÈëÓÃ»§Ãû");
+	alert("è¯·è¾“å…¥ç”¨æˆ·å");
 	document.userlog.username.focus();
 	return false;
 }
 if(document.userlog.pwd1.value=="")
 {
-	alert("ÇëÊäÈëÃÜÂë");
+	alert("è¯·è¾“å…¥å¯†ç ");
 	document.userlog.pwd1.focus();
 	return false;
 }
 if(document.userlog.yzm.value=="")
 {
-	alert("ÇëÊäÈëÑéÖ¤Âë");
+	alert("è¯·è¾“å…¥éªŒè¯ç ");
 	document.userlog.yzm.focus();
 	return false;
 }
@@ -61,7 +61,7 @@ if(document.userlog.yzm.value=="")
 						<table width="100%" height="36" border="0" cellpadding="0" cellspacing="0">
                       <tr>
 					  <td width="13%" valign="bottom">&nbsp;</td>
-                        <td width="68%" height="30" align="left" valign="bottom" class="STYLE11">ÓÃ»§µÇÂ½</td>
+                        <td width="68%" height="30" align="left" valign="bottom" class="STYLE11">ç”¨æˆ·ç™»é™†</td>
                         <td width="20%" valign="bottom">&nbsp;</td>
                       </tr>
                     </table>
@@ -79,31 +79,31 @@ if(document.userlog.yzm.value=="")
                                 <form action="userlog_post.php" method="post" name="userlog" id="userlog">
                                   <tr>
                                     <td width="9" height="28">&nbsp;</td>
-                                    <td width="54" height="28">ÓÃ»§Ãû:</td>
+                                    <td width="54" height="28">ç”¨æˆ·å:</td>
                                     <td height="28" colspan="2"><input name="username" type="text" id="username" style="width:100px; height:20px; border:solid 1px #000000; color:#666666" /></td>
                                   </tr>
                                   <tr>
                                     <td height="28">&nbsp;</td>
-                                    <td height="28">ÃÜÂë:</td>
+                                    <td height="28">å¯†ç :</td>
                                     <td height="28" colspan="2"><input name="pwd1" type="password" id="pwd1"  style="width:100px; height:20px; border:solid 1px #000000; color:#666666" /></td>
                                   </tr>
                                   <tr >
                                     <td height="28">&nbsp;</td>
-                                    <td height="28">È¨ÏŞ:</td>
+                                    <td height="28">æƒé™:</td>
                                     <td height="28" colspan="2"><select name="cx" id="cx" style="width:100px; height:20px; border:solid 1px #000000; color:#666666" >
-                                        <option value="×¢²áÓÃ»§">×¢²áÓÃ»§</option>
+                                        <option value="æ³¨å†Œç”¨æˆ·">æ³¨å†Œç”¨æˆ·</option>
                                     </select></td>
                                   </tr>
                                   <tr >
                                     <td height="28">&nbsp;</td>
-                                    <td height="28">ÑéÖ¤Âë:</td>
+                                    <td height="28">éªŒè¯ç :</td>
                                     <td width="52" height="28"><input name="yzm" type="text" id="yzm" style=" height:20px; border:solid 1px #000000; color:#666666; width:50px" /></td>
-                                    <td width="96"><img alt="Ë¢ĞÂÑéÖ¤Âë" onClick="this.src='code.php?time='+new Date().getTime();" src="code.php?time='+new Date().getTime();" style="cursor:pointer" /></td>
+                                    <td width="96"><img alt="åˆ·æ–°éªŒè¯ç " onClick="this.src='code.php?time='+new Date().getTime();" src="code.php?time='+new Date().getTime();" style="cursor:pointer" /></td>
                                   </tr>
                                   <tr>
                                     <td height="38" align="center">&nbsp;</td>
-                                    <td height="38" colspan="3" align="center"><input type="submit" name="Submit" value="µÇÂ½" class="hsgbutton" onClick="return checklog();" />
-                                        <input type="reset" name="Submit2" value="ÖØÖÃ" class="hsgbutton" /></td>
+                                    <td height="38" colspan="3" align="center"><input type="submit" name="Submit" value="ç™»é™†" class="hsgbutton" onClick="return checklog();" />
+                                        <input type="reset" name="Submit2" value="é‡ç½®" class="hsgbutton" /></td>
                                   </tr>
                                 </form>
                               </table>
@@ -114,17 +114,17 @@ if(document.userlog.yzm.value=="")
 				 ?>
                               <table width="93%" height="68%" border="0" align="center" cellpadding="0" cellspacing="0">
                                 <tr>
-                                  <td height="28" align="left">µ±Ç°ÓÃ»§£º<?php echo $_SESSION['username']?></td>
+                                  <td height="28" align="left">å½“å‰ç”¨æˆ·ï¼š<?php echo $_SESSION['username']?></td>
                                 </tr>
                                 <tr>
-                                  <td height="28" align="left">ÄúµÄÈ¨ÏŞ£º<?php echo $_SESSION['cx']?></td>
+                                  <td height="28" align="left">æ‚¨çš„æƒé™ï¼š<?php echo $_SESSION['cx']?></td>
                                 </tr>
                                 <tr>
-                                  <td height="28" align="left">»¶Ó­ÄúµÄµ½À´!!!</td>
+                                  <td height="28" align="left">æ¬¢è¿æ‚¨çš„åˆ°æ¥!!!</td>
                                 </tr>
                                 <tr>
-                                  <td height="28" align="center"><input type="button" name="Submit3" value="ÍË³ö" onClick="javascript:location.href='logout.php';" class="hsgbutton" />
-                                      <input type="button" name="Submit22" value="¸öÈËºóÌ¨" onClick="javascript:location.href='main.php';" class="hsgbutton" /></td>
+                                  <td height="28" align="center"><input type="button" name="Submit3" value="é€€å‡º" onClick="javascript:location.href='logout.php';" class="hsgbutton" />
+                                      <input type="button" name="Submit22" value="ä¸ªäººåå°" onClick="javascript:location.href='main.php';" class="hsgbutton" /></td>
                                 </tr>
                               </table>
                             <?php } ?></td>
@@ -141,9 +141,9 @@ if(document.userlog.yzm.value=="")
                         <td width="506" height="40" background="qtimages/1_02_01_03_02_01.gif">
 						<table width="100%" height="34" border="0" cellpadding="0" cellspacing="0">
                           <tr>
-                            <td width="20%" align="center" valign="bottom"><span class="STYLE11">½»¹æĞû´«À¸</span></td>
+                            <td width="20%" align="center" valign="bottom"><span class="STYLE11">äº¤è§„å®£ä¼ æ </span></td>
                             <td width="65%" valign="bottom">&nbsp;</td>
-                            <td width="15%" valign="bottom" ><a href="news.php?lb=½»¹æĞû´«À¸"><font class="STYLE11">&gt;&gt; ¸ü¶à</font></a> </td>
+                            <td width="15%" valign="bottom" ><a href="news.php?lb=äº¤è§„å®£ä¼ æ "><font class="STYLE11">&gt;&gt; æ›´å¤š</font></a> </td>
                           </tr>
                         </table>
 						</td>
@@ -156,9 +156,9 @@ if(document.userlog.yzm.value=="")
 							<table class="newsline" cellspacing="0" cellpadding="0" width="98%" align="center" border="0">
                           <tbody>
                            <?php 
-					  $sql="select biaoti,id,addtime from xinwentongzhi where leibie='½»¹æĞû´«À¸' order by id desc limit 0,7";
-					  $query=mysql_query($sql);
-					  $rowscount=mysql_num_rows($query);
+					  $sql="select biaoti,id,addtime from xinwentongzhi where leibie='äº¤è§„å®£ä¼ æ ' order by id desc limit 0,7";
+					  $query=mysqli_query($conn,$sql);
+					  $rowscount=mysqli_num_rows($query);
 					  if($rowscount>0)
 					  {
 					  	for($i=0;$i<$rowscount;$i++)
@@ -167,19 +167,19 @@ if(document.userlog.yzm.value=="")
 						?>
                             <tr>
                               <td width="4%" height="25"><img src="qtimages/1.jpg" /> </td>
-                              <td width="76%" height="25"><a  href="gg_detail.php?id=<?php echo mysql_result($query,$i,"id");?>" 
+                              <td width="76%" height="25"><a  href="gg_detail.php?id=<?php echo mysqli_result($query,$i,"id");?>" 
                                 ><?php 
-								if (strlen(mysql_result($query,$i,"biaoti"))>53)
+								if (strlen(mysqli_result($query,$i,"biaoti"))>53)
 								{
-									echo substr(mysql_result($query,$i,"biaoti"),0,53);
+									echo substr(mysqli_result($query,$i,"biaoti"),0,53);
 								}
 								else
 								{
-									echo mysql_result($query,$i,"biaoti");
+									echo mysqli_result($query,$i,"biaoti");
 								}
 								
 								?></a></td>
-                              <td width="20%" height="25" align="right"><SPAN style="FONT-SIZE: 9pt; COLOR: #b5a073; FONT-FAMILY: ËÎÌå">[<?php echo date("Y-m-d",strtotime(mysql_result($query,$i,"addtime")));?>]</SPAN></td>
+                              <td width="20%" height="25" align="right"><SPAN style="FONT-SIZE: 9pt; COLOR: #b5a073; FONT-FAMILY: å®‹ä½“">[<?php echo date("Y-m-d",strtotime(mysqli_result($query,$i,"addtime")));?>]</SPAN></td>
                             </tr>
                              <?php
 						}

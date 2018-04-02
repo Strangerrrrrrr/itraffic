@@ -6,7 +6,7 @@ mysql_query("update xinwentongzhi set dianjilv=dianjilv+1 where id=$id");
 ?>
 <html>
 <head>
-<title>½»Í¨Î¥ÕÂÒ»Õ¾Ê½´¦ÀíÏµÍ³</title>
+<title>äº¤é€šè¿ç« ä¸€ç«™å¼å¤„ç†ç³»ç»Ÿ</title>
 
 <LINK href="qtimages/style.css" type=text/css rel=stylesheet>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
@@ -30,7 +30,7 @@ mysql_query("update xinwentongzhi set dianjilv=dianjilv+1 where id=$id");
                       <tr>
                         <td width="255" height="34" valign="top" background="qtimages/1_02_01_03_01_01_01.gif"><table width="100%" height="30" border="0" cellpadding="0" cellspacing="0">
                       <tr>
-                        <td width="190" height="30" align="center" valign="bottom"><span class="STYLE11">ÄÚÈİÏêÏ¸</span></td>
+                        <td width="190" height="30" align="center" valign="bottom"><span class="STYLE11">å†…å®¹è¯¦ç»†</span></td>
                         <td valign="middle"></td>
                       </tr>
                     </table></td>
@@ -56,13 +56,13 @@ mysql_query("update xinwentongzhi set dianjilv=dianjilv+1 where id=$id");
 					?>
                           <table width="97%" border="0" align="center" cellpadding="3" cellspacing="1" bordercolor="#B8D8E8" class="newsline" style="border-collapse:collapse">
                             <tr>
-                              <td height="33" align="center"><span class="STYLE11"><?php echo mysql_result($query,0,"biaoti"); ?> (±»µã»÷<?php echo mysql_result($query,0,"dianjilv"); ?>´Î)</span></td>
+                              <td height="33" align="center"><span class="STYLE11"><?php echo mysql_result($query,0,"biaoti"); ?> (è¢«ç‚¹å‡»<?php echo mysql_result($query,0,"dianjilv"); ?>æ¬¡)</span></td>
                             </tr>
                             <tr>
                               <td height="104"><?php echo mysql_result($query,0,"neirong");?></td>
                             </tr>
                             <tr>
-                              <td align="right"><a onClick="javascript:history.back();" style="cursor:pointer;">·µ»Ø</a></td>
+                              <td align="right"><a onClick="javascript:history.back();" style="cursor:pointer;">è¿”å›</a></td>
                             </tr>
                           </table>
                           <?php

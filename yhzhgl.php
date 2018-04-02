@@ -1,9 +1,9 @@
 <?php
 
 session_start();
-if($_SESSION['cx']!="³¬¼¶¹ÜÀíÔ±")
+if($_SESSION['cx']!="è¶…çº§ç®¡ç†å‘˜")
 {
-	echo "<script>javascript:alert('¶Ô²»Æğ£¬ÄúÃ»ÓĞ¸ÃÈ¨ÏŞ');history.back();</script>";
+	echo "<script>javascript:alert('å¯¹ä¸èµ·ï¼Œæ‚¨æ²¡æœ‰è¯¥æƒé™');history.back();</script>";
 	exit;
 }
 
@@ -25,7 +25,7 @@ include_once 'conn.php';
 		if($rowscount>0)
 			{
 					
-					echo "<script language='javascript'>alert('¸ÃÓÃ»§ÃûÒÑ¾­´æÔÚ,Çë»»ÆäËûÓÃ»§Ãû£¡');history.back();</script>";
+					echo "<script language='javascript'>alert('è¯¥ç”¨æˆ·åå·²ç»å­˜åœ¨,è¯·æ¢å…¶ä»–ç”¨æˆ·åï¼');history.back();</script>";
 			}
 			else
 			{
@@ -35,7 +35,7 @@ include_once 'conn.php';
 
 					$sql="insert into allusers(username,pwd,cx) values('$username','$pwd','$cx')";
 					mysql_query($sql); 
-					echo "<script language='javascript'>alert('²Ù×÷³É¹¦£¡');location.href='yhzhgl.php';</script>";
+					echo "<script language='javascript'>alert('æ“ä½œæˆåŠŸï¼');location.href='yhzhgl.php';</script>";
 			}
 	 }
 	 
@@ -47,35 +47,35 @@ include_once 'conn.php';
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>ÎŞ±êÌâÎÄµµ</title>
+<title>æ— æ ‡é¢˜æ–‡æ¡£</title>
 </head>
 
 <body>
-<p>Ìí¼ÓĞÂ¹ÜÀíÔ±£º</p>
+<p>æ·»åŠ æ–°ç®¡ç†å‘˜ï¼š</p>
 <script language="javascript">
 	function check()
 	{
 		if(document.form1.username.value=="")
 		{
-			alert("ÇëÊäÈëÓÃ»§Ãû");
+			alert("è¯·è¾“å…¥ç”¨æˆ·å");
 			document.form1.username.focus();
 			return false;
 		}
 		if(document.form1.pwd1.value=="")
 		{
-			alert("ÇëÊäÈëÃÜÂë");
+			alert("è¯·è¾“å…¥å¯†ç ");
 			document.form1.pwd1.focus();
 			return false;
 		}
 		if(document.form1.pwd2.value=="")
 		{
-			alert("ÇëÊäÈëÈ·ÈÏÃÜÂë");
+			alert("è¯·è¾“å…¥ç¡®è®¤å¯†ç ");
 			document.form1.pwd2.focus();
 			return false;
 		}
 		if(document.form1.pwd1.value!=document.form1.pwd2.value)
 		{
-			alert("Á½´ÎÃÜÂë²»Ò»ÖÂ£¬ÇëÖØÊÔ");
+			alert("ä¸¤æ¬¡å¯†ç ä¸ä¸€è‡´ï¼Œè¯·é‡è¯•");
 			document.form1.pwd1.value="";
 			document.form1.pwd2.value="";
 			document.form1.pwd1.focus();
@@ -85,45 +85,45 @@ include_once 'conn.php';
 </script>
 <form id="form1" name="form1" method="post" action="">
 <table width="100%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#00FFFF" style="border-collapse:collapse">    <tr>
-      <td>ÓÃ»§Ãû£º</td>
+      <td>ç”¨æˆ·åï¼š</td>
       <td><input name="username" type="text" id="username" />
       *
       <input name="addnew" type="hidden" id="addnew" value="1" /></td>
     </tr>
     <tr>
-      <td>ÃÜÂë£º</td>
+      <td>å¯†ç ï¼š</td>
       <td><input name="pwd1" type="password" id="pwd1" />
       *</td>
     </tr>
     <tr>
-      <td>È·ÈÏÃÜÂë£º</td>
+      <td>ç¡®è®¤å¯†ç ï¼š</td>
       <td><input name="pwd2" type="password" id="pwd2" />
       *</td>
     </tr>
     
     <tr>
-      <td>È¨ÏŞ:</td>
-      <td><input name="cx" type="radio" value="ÆÕÍ¨¹ÜÀíÔ±" checked="checked" />
-      ÆÕÍ¨¹ÜÀíÔ±
-        <input type="radio" name="cx" value="³¬¼¶¹ÜÀíÔ±" />
-      ³¬¼¶¹ÜÀíÔ±</td>
+      <td>æƒé™:</td>
+      <td><input name="cx" type="radio" value="æ™®é€šç®¡ç†å‘˜" checked="checked" />
+      æ™®é€šç®¡ç†å‘˜
+        <input type="radio" name="cx" value="è¶…çº§ç®¡ç†å‘˜" />
+      è¶…çº§ç®¡ç†å‘˜</td>
     </tr>
     <tr>
       <td>&nbsp;</td>
-      <td><input type="submit" name="Submit" value="Ìá½»" onClick="return check();" />
-      <input type="reset" name="Submit2" value="ÖØÖÃ" /></td>
+      <td><input type="submit" name="Submit" value="æäº¤" onClick="return check();" />
+      <input type="reset" name="Submit2" value="é‡ç½®" /></td>
     </tr>
   </table>
 </form>
-<p>ÒÑÓĞ¹ÜÀíÔ±ÁĞ±í£º</p>
+<p>å·²æœ‰ç®¡ç†å‘˜åˆ—è¡¨ï¼š</p>
 <table width="100%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#00FFFF" style="border-collapse:collapse">  
   <tr>
-    <td bgcolor="A4B6D7">ĞòºÅ</td>
-    <td bgcolor="A4B6D7">ÓÃ»§Ãû</td>
-    <td bgcolor="A4B6D7">ÃÜÂë</td>
-    <td bgcolor="A4B6D7">È¨ÏŞ</td>
-    <td bgcolor="A4B6D7">Ìí¼ÓÊ±¼ä</td>
-    <td bgcolor="A4B6D7">²Ù×÷</td>
+    <td bgcolor="A4B6D7">åºå·</td>
+    <td bgcolor="A4B6D7">ç”¨æˆ·å</td>
+    <td bgcolor="A4B6D7">å¯†ç </td>
+    <td bgcolor="A4B6D7">æƒé™</td>
+    <td bgcolor="A4B6D7">æ·»åŠ æ—¶é—´</td>
+    <td bgcolor="A4B6D7">æ“ä½œ</td>
   </tr>
   <?php
 	  $sql="select * from allusers order by id desc";
@@ -150,7 +150,7 @@ include_once 'conn.php';
 	?></td>
     <td><a href="del.php?id=<?php
 		echo mysql_result($query,$i,"id");
-	?>&tablename=allusers" onClick="return confirm('ÕæµÄÒªÉ¾³ı£¿')">É¾³ı</a> </td>
+	?>&tablename=allusers" onClick="return confirm('çœŸçš„è¦åˆ é™¤ï¼Ÿ')">åˆ é™¤</a> </td>
   </tr>
   <?php
   	}

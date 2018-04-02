@@ -2,7 +2,7 @@
 session_start();
 
 ?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD><TITLE>нч╠ЙлБнд╣╣</TITLE><script language="javascript" src="images/qkjs.js"></script>
+<HTML><HEAD><TITLE>Ф≈═Ф═┤И╒≤Ф√┤Ф║ё</TITLE><script language="javascript" src="images/qkjs.js"></script>
 
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
 <style type="text/css">
@@ -33,23 +33,23 @@ A:hover {
  <table width="100%" height="84" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
     <td width="94" background="images/hsg1.gif"  class="top"><a href="logout.php" target="_parent"></a></td>
-    <td background="images/hsg3.gif"  class="top"><div style="font-family:кнлЕ; color:#FF6600; WIDTH: 100%; FONT-WEIGHT: bold; FONT-SIZE: 28pt; margin-top:5pt">
-      <div align="left" >╫╩м╗н╔убр╩у╬й╫╢╕юМо╣мЁ</div>
+    <td background="images/hsg3.gif"  class="top"><div style="font-family:Е╝▀Д╫⌠; color:#FF6600; WIDTH: 100%; FONT-WEIGHT: bold; FONT-SIZE: 28pt; margin-top:5pt">
+      <div align="left" >Д╨╓И─ Х©²Г╚═Д╦─Г╚≥Е╪▐Е╓└Г░├ГЁ╩Г╩÷</div>
     </div></td>
     <td width="703" background="images/hsg2.gif"  class="top"><table width="100%" height="46" border="0" cellpadding="0" cellspacing="0">
       <tr>
         <td><TABLE cellSpacing=0 cellPadding=0 width="92%" border=0>
           <TBODY>
             <TR>
-              <TD height=29 align="right" style="FONT-SIZE: 12px; COLOR: #333333">╣╠г╟сц╩╖:<?php echo $_SESSION["username"];?> [х╗очё╨<?php echo $_SESSION["cx"];?>]
-                ╫ЯлЛё╨
+              <TD height=29 align="right" style="FONT-SIZE: 12px; COLOR: #333333">Е╫⌠Е┴█Г■╗Ф┬╥:<?php echo $_SESSION["username"];?> [Ф²┐И≥░О╪ <?php echo $_SESSION["cx"];?>]
+                Д╩┼Е╓╘О╪ 
                 <SCRIPT language=javascript>setCalendar();</SCRIPT></TD>
             </TR>
           </TBODY>
         </TABLE></td>
       </tr>
       <tr>
-        <td align="right" style="padding-right:60px;"><a href="logout.php" target="_parent" onClick="return confirm('х╥╤╗р╙мкЁЖ?')">мкЁЖ</a></td>
+        <td align="right" style="padding-right:60px;"><a href="logout.php" target="_parent" onClick="return confirm('Г║╝Е╝ Х╕│И──Е┤╨?')">И──Е┤╨</a></td>
       </tr>
     </table></td>
   </tr>

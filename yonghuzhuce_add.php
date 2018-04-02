@@ -5,7 +5,22 @@ $ndate =date("Y-m-d");
 $addnew=$_POST["addnew"];
 if ($addnew=="1" )
 {
-	$zhanghao=$_POST["zhanghao"];    $mima=$_POST["mima"];    $xingming=$_POST["xingming"];    $xingbie=$_POST["xingbie"];    $shouji=$_POST["shouji"];    $shenfenzheng=$_POST["shenfenzheng"];    $cheliangzhaopian=$_POST["cheliangzhaopian"];    $paizhao=$_POST["paizhao"];    $xingshizhengzhaopian=$_POST["xingshizhengzhaopian"];    $jiazhaozhaopian=$_POST["jiazhaozhaopian"];    $shenfenzhengzhaopian=$_POST["shenfenzhengzhaopian"];    $shengyufenshu=$_POST["shengyufenshu"];    $jiashizhengguoqishijian=$_POST["jiashizhengguoqishijian"];    $chelianganjiantongguo=$_POST["chelianganjiantongguo"];    $anjiandaoqiriqi=$_POST["anjiandaoqiriqi"];    
+	$zhanghao=$_POST["zhanghao"];
+    $mima=$_POST["mima"];
+    $xingming=$_POST["xingming"];
+    $xingbie=$_POST["xingbie"];
+    $shouji=$_POST["shouji"];
+    $shenfenzheng=$_POST["shenfenzheng"];
+    $cheliangzhaopian=$_POST["cheliangzhaopian"];
+    $paizhao=$_POST["paizhao"];
+    $xingshizhengzhaopian=$_POST["xingshizhengzhaopian"];
+    $jiazhaozhaopian=$_POST["jiazhaozhaopian"];
+    $shenfenzhengzhaopian=$_POST["shenfenzhengzhaopian"];
+    $shengyufenshu=$_POST["shengyufenshu"];
+    $jiashizhengguoqishijian=$_POST["jiashizhengguoqishijian"];
+    $chelianganjiantongguo=$_POST["chelianganjiantongguo"];
+    $anjiandaoqiriqi=$_POST["anjiandaoqiriqi"];
+    
 	
 	
 	
@@ -13,7 +28,7 @@ if ($addnew=="1" )
 	$sql="insert into yonghuzhuce(zhanghao,mima,xingming,xingbie,shouji,shenfenzheng,cheliangzhaopian,paizhao,xingshizhengzhaopian,jiazhaozhaopian,shenfenzhengzhaopian,shengyufenshu,jiashizhengguoqishijian,chelianganjiantongguo,anjiandaoqiriqi) values('$zhanghao','$mima','$xingming','$xingbie','$shouji','$shenfenzheng','$cheliangzhaopian','$paizhao','$xingshizhengzhaopian','$jiazhaozhaopian','$shenfenzhengzhaopian','$shengyufenshu','$jiashizhengguoqishijian','$chelianganjiantongguo','$anjiandaoqiriqi') ";
 	mysql_query($sql);
 	
-	echo "<script>javascript:alert('Ìí¼Ó³É¹¦!');history.back();</script>";
+	echo "<script>javascript:alert('æ·»åŠ æˆåŠŸ!');history.back();</script>";
 }
 ?>
 
@@ -21,7 +36,7 @@ if ($addnew=="1" )
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>ÓÃ»§×¢²á</title>
+<title>ç”¨æˆ·æ³¨å†Œ</title>
 
 <script type="text/javascript" src="js/My97DatePicker/WdatePicker.js" charset="gb2312"></script>
 <link rel="stylesheet" href="css.css" type="text/css">
@@ -40,11 +55,27 @@ if ($addnew=="1" )
 }
 </script>
 <body>
-<p>Ìí¼ÓÓÃ»§×¢²á£º µ±Ç°ÈÕÆÚ£º <?php echo $ndate; ?></p>
+<p>æ·»åŠ ç”¨æˆ·æ³¨å†Œï¼š å½“å‰æ—¥æœŸï¼š <?php echo $ndate; ?></p>
 <script language="javascript">
 	function check()
 {
-	if(document.form1.zhanghao.value==""){alert("ÇëÊäÈëÕÊºÅ");document.form1.zhanghao.focus();return false;}    if(document.form1.mima.value==""){alert("ÇëÊäÈëÃÜÂë");document.form1.mima.focus();return false;}    if(document.form1.xingming.value==""){alert("ÇëÊäÈëĞÕÃû");document.form1.xingming.focus();return false;}    if(document.form1.shouji.value==""){alert("ÇëÊäÈëÊÖ»ú");document.form1.shouji.focus();return false;}    if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(document.form1.shouji.value))){alert("ÊÖ»ú±ØĞèÊÖ»ú¸ñÊ½");document.form1.shouji.focus();return false;}    if(document.form1.shenfenzheng.value==""){alert("ÇëÊäÈëÉí·İÖ¤");document.form1.shenfenzheng.focus();return false;}    if(!(/^\d{15}$|^\d{18}$|^\d{17}[xX]$/.test(document.form1.shenfenzheng.value))){alert("Éí·İÖ¤±ØĞèÉí·İÖ¤¸ñÊ½");document.form1.shenfenzheng.focus();return false;}    if(document.form1.cheliangzhaopian.value==""){alert("ÇëÊäÈë³µÁ¾ÕÕÆ¬");document.form1.cheliangzhaopian.focus();return false;}    if(document.form1.paizhao.value==""){alert("ÇëÊäÈëÅÆÕÕ");document.form1.paizhao.focus();return false;}    if(document.form1.xingshizhengzhaopian.value==""){alert("ÇëÊäÈëĞĞÊ»Ö¤ÕÕÆ¬");document.form1.xingshizhengzhaopian.focus();return false;}    if(document.form1.jiazhaozhaopian.value==""){alert("ÇëÊäÈë¼İÕÕÕÕÆ¬");document.form1.jiazhaozhaopian.focus();return false;}    if(document.form1.shenfenzhengzhaopian.value==""){alert("ÇëÊäÈëÉí·İÖ¤ÕÕÆ¬");document.form1.shenfenzhengzhaopian.focus();return false;}    if(document.form1.shengyufenshu.value==""){alert("ÇëÊäÈëÊ£Óà·ÖÊı");document.form1.shengyufenshu.focus();return false;}    if((/^(\+|-)?(0|[1-9]\d*)(\.\d*[1-9])?$/.test(document.form1.shengyufenshu.value))){}else{alert("Ê£Óà·ÖÊı±ØĞèÊı×ÖĞÍ");document.form1.shengyufenshu.focus();return false;}    if(document.form1.jiashizhengguoqishijian.value==""){alert("ÇëÊäÈë¼İÊ»Ö¤¹ıÆÚÊ±¼ä");document.form1.jiashizhengguoqishijian.focus();return false;}    if(document.form1.chelianganjiantongguo.value==""){alert("ÇëÊäÈë³µÁ¾°²¼ìÍ¨¹ı");document.form1.chelianganjiantongguo.focus();return false;}    
+	if(document.form1.zhanghao.value==""){alert("è¯·è¾“å…¥å¸å·");document.form1.zhanghao.focus();return false;}
+    if(document.form1.mima.value==""){alert("è¯·è¾“å…¥å¯†ç ");document.form1.mima.focus();return false;}
+    if(document.form1.xingming.value==""){alert("è¯·è¾“å…¥å§“å");document.form1.xingming.focus();return false;}
+    if(document.form1.shouji.value==""){alert("è¯·è¾“å…¥æ‰‹æœº");document.form1.shouji.focus();return false;}
+    if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(document.form1.shouji.value))){alert("æ‰‹æœºå¿…éœ€æ‰‹æœºæ ¼å¼");document.form1.shouji.focus();return false;}
+    if(document.form1.shenfenzheng.value==""){alert("è¯·è¾“å…¥èº«ä»½è¯");document.form1.shenfenzheng.focus();return false;}
+    if(!(/^\d{15}$|^\d{18}$|^\d{17}[xX]$/.test(document.form1.shenfenzheng.value))){alert("èº«ä»½è¯å¿…éœ€èº«ä»½è¯æ ¼å¼");document.form1.shenfenzheng.focus();return false;}
+    if(document.form1.cheliangzhaopian.value==""){alert("è¯·è¾“å…¥è½¦è¾†ç…§ç‰‡");document.form1.cheliangzhaopian.focus();return false;}
+    if(document.form1.paizhao.value==""){alert("è¯·è¾“å…¥ç‰Œç…§");document.form1.paizhao.focus();return false;}
+    if(document.form1.xingshizhengzhaopian.value==""){alert("è¯·è¾“å…¥è¡Œé©¶è¯ç…§ç‰‡");document.form1.xingshizhengzhaopian.focus();return false;}
+    if(document.form1.jiazhaozhaopian.value==""){alert("è¯·è¾“å…¥é©¾ç…§ç…§ç‰‡");document.form1.jiazhaozhaopian.focus();return false;}
+    if(document.form1.shenfenzhengzhaopian.value==""){alert("è¯·è¾“å…¥èº«ä»½è¯ç…§ç‰‡");document.form1.shenfenzhengzhaopian.focus();return false;}
+    if(document.form1.shengyufenshu.value==""){alert("è¯·è¾“å…¥å‰©ä½™åˆ†æ•°");document.form1.shengyufenshu.focus();return false;}
+    if((/^(\+|-)?(0|[1-9]\d*)(\.\d*[1-9])?$/.test(document.form1.shengyufenshu.value))){}else{alert("å‰©ä½™åˆ†æ•°å¿…éœ€æ•°å­—å‹");document.form1.shengyufenshu.focus();return false;}
+    if(document.form1.jiashizhengguoqishijian.value==""){alert("è¯·è¾“å…¥é©¾é©¶è¯è¿‡æœŸæ—¶é—´");document.form1.jiashizhengguoqishijian.focus();return false;}
+    if(document.form1.chelianganjiantongguo.value==""){alert("è¯·è¾“å…¥è½¦è¾†å®‰æ£€é€šè¿‡");document.form1.chelianganjiantongguo.focus();return false;}
+    
 }
 	function gow()
 	{
@@ -54,11 +85,11 @@ if ($addnew=="1" )
 {
 	if (eval("form1."+nwbk).value.indexOf(nstr)>=0)
 	{
-		eval("form1."+nwbk).value=eval("form1."+nwbk).value.replace(nstr+"£»", "");
+		eval("form1."+nwbk).value=eval("form1."+nwbk).value.replace(nstr+"ï¼›", "");
 	}
 	else
 	{
-		eval("form1."+nwbk).value=eval("form1."+nwbk).value+nstr+"£»";
+		eval("form1."+nwbk).value=eval("form1."+nwbk).value+nstr+"ï¼›";
 	}
 }
 </script>
@@ -67,13 +98,28 @@ if ($addnew=="1" )
 
 <form id="form1" name="form1" method="post" action="?id=<?php echo $_GET["id"]?>">
 <table width="100%" border="1" align="center" cellpadding="3" cellspacing="1" bordercolor="#00FFFF" style="border-collapse:collapse">    
-	<tr><td>ÕÊºÅ£º</td><td><input name='zhanghao' type='text' id='zhanghao' value='<?php echo $_SESSION['username'];?>' style='border:solid 1px #000000; color:#666666' readonly='readonly' />&nbsp;*</td></tr>    <tr><td>ÃÜÂë£º</td><td><input name='mima' type='text' id='mima' value='' style='border:solid 1px #000000; color:#666666' />&nbsp;*</td></tr>    <tr><td>ĞÕÃû£º</td><td><input name='xingming' type='text' id='xingming' value='' style='border:solid 1px #000000; color:#666666' />&nbsp;*</td></tr>    <tr><td>ĞÔ±ğ£º</td><td><select name='xingbie' id='xingbie'><option value="ÄĞ">ÄĞ</option><option value="Å®">Å®</option></select></td></tr>    <tr><td>ÊÖ»ú£º</td><td><input name='shouji' type='text' id='shouji' value='' style='border:solid 1px #000000; color:#666666' />&nbsp;*&nbsp;±ØĞèÊÖ»ú¸ñÊ½</td></tr>    <tr><td>Éí·İÖ¤£º</td><td><input name='shenfenzheng' type='text' id='shenfenzheng' value='' style='border:solid 1px #000000; color:#666666' />&nbsp;*&nbsp;±ØĞèÉí·İÖ¤¸ñÊ½</td></tr>    <tr><td>³µÁ¾ÕÕÆ¬£º</td><td><input name='cheliangzhaopian' type='text' id='cheliangzhaopian' value='' size='50' style='border:solid 1px #000000; color:#666666'  />&nbsp;<a href="javaScript:OpenScript('upfile.php?Result=cheliangzhaopian',460,180)"><img src="Images/Upload.gif" width="30" height="16" border="0" align="absmiddle" /></a>&nbsp;*</td></tr>    <tr><td>ÅÆÕÕ£º</td><td><input name='paizhao' type='text' id='paizhao' value='' style='border:solid 1px #000000; color:#666666' />&nbsp;*</td></tr>    <tr><td>ĞĞÊ»Ö¤ÕÕÆ¬£º</td><td><input name='xingshizhengzhaopian' type='text' id='xingshizhengzhaopian' value='' size='50' style='border:solid 1px #000000; color:#666666'  />&nbsp;<a href="javaScript:OpenScript('upfile.php?Result=xingshizhengzhaopian',460,180)"><img src="Images/Upload.gif" width="30" height="16" border="0" align="absmiddle" /></a>&nbsp;*</td></tr>    <tr><td>¼İÕÕÕÕÆ¬£º</td><td><input name='jiazhaozhaopian' type='text' id='jiazhaozhaopian' value='' size='50' style='border:solid 1px #000000; color:#666666'  />&nbsp;<a href="javaScript:OpenScript('upfile.php?Result=jiazhaozhaopian',460,180)"><img src="Images/Upload.gif" width="30" height="16" border="0" align="absmiddle" /></a>&nbsp;*</td></tr>    <tr><td>Éí·İÖ¤ÕÕÆ¬£º</td><td><input name='shenfenzhengzhaopian' type='text' id='shenfenzhengzhaopian' value='' size='50' style='border:solid 1px #000000; color:#666666'  />&nbsp;<a href="javaScript:OpenScript('upfile.php?Result=shenfenzhengzhaopian',460,180)"><img src="Images/Upload.gif" width="30" height="16" border="0" align="absmiddle" /></a>&nbsp;*</td></tr>    <tr><td>Ê£Óà·ÖÊı£º</td><td><input name='shengyufenshu' type='text' id='shengyufenshu' value='' style='border:solid 1px #000000; color:#666666' />&nbsp;*&nbsp;±ØĞèÊı×ÖĞÍ</td></tr>    <tr><td>¼İÊ»Ö¤¹ıÆÚÊ±¼ä£º</td><td><input name='jiashizhengguoqishijian' type='text' id='jiashizhengguoqishijian' value='' onclick="WdatePicker({'dateFmt':'yyyy-MM-dd'})" style='border:solid 1px #000000; color:#666666;  width:90px;' />&nbsp;*</td></tr>    <tr><td>³µÁ¾°²¼ìÍ¨¹ı£º</td><td><select name='chelianganjiantongguo' id='chelianganjiantongguo'><option value="ÊÇ">ÊÇ</option><option value="·ñ">·ñ</option></select>&nbsp;*</td></tr>    <tr><td>°²¼ìµ½ÆÚÈÕÆÚ£º</td><td><input name='anjiandaoqiriqi' type='text' id='anjiandaoqiriqi' value='' onclick="WdatePicker({'dateFmt':'yyyy-MM-dd'})" style='border:solid 1px #000000; color:#666666;  width:90px;' /></td></tr>    
+	<tr><td>å¸å·ï¼š</td><td><input name='zhanghao' type='text' id='zhanghao' value='<?php echo $_SESSION['username'];?>' style='border:solid 1px #000000; color:#666666' readonly='readonly' />&nbsp;*</td></tr>
+    <tr><td>å¯†ç ï¼š</td><td><input name='mima' type='text' id='mima' value='' style='border:solid 1px #000000; color:#666666' />&nbsp;*</td></tr>
+    <tr><td>å§“åï¼š</td><td><input name='xingming' type='text' id='xingming' value='' style='border:solid 1px #000000; color:#666666' />&nbsp;*</td></tr>
+    <tr><td>æ€§åˆ«ï¼š</td><td><select name='xingbie' id='xingbie'><option value="ç”·">ç”·</option><option value="å¥³">å¥³</option></select></td></tr>
+    <tr><td>æ‰‹æœºï¼š</td><td><input name='shouji' type='text' id='shouji' value='' style='border:solid 1px #000000; color:#666666' />&nbsp;*&nbsp;å¿…éœ€æ‰‹æœºæ ¼å¼</td></tr>
+    <tr><td>èº«ä»½è¯ï¼š</td><td><input name='shenfenzheng' type='text' id='shenfenzheng' value='' style='border:solid 1px #000000; color:#666666' />&nbsp;*&nbsp;å¿…éœ€èº«ä»½è¯æ ¼å¼</td></tr>
+    <tr><td>è½¦è¾†ç…§ç‰‡ï¼š</td><td><input name='cheliangzhaopian' type='text' id='cheliangzhaopian' value='' size='50' style='border:solid 1px #000000; color:#666666'  />&nbsp;<a href="javaScript:OpenScript('upfile.php?Result=cheliangzhaopian',460,180)"><img src="Images/Upload.gif" width="30" height="16" border="0" align="absmiddle" /></a>&nbsp;*</td></tr>
+    <tr><td>ç‰Œç…§ï¼š</td><td><input name='paizhao' type='text' id='paizhao' value='' style='border:solid 1px #000000; color:#666666' />&nbsp;*</td></tr>
+    <tr><td>è¡Œé©¶è¯ç…§ç‰‡ï¼š</td><td><input name='xingshizhengzhaopian' type='text' id='xingshizhengzhaopian' value='' size='50' style='border:solid 1px #000000; color:#666666'  />&nbsp;<a href="javaScript:OpenScript('upfile.php?Result=xingshizhengzhaopian',460,180)"><img src="Images/Upload.gif" width="30" height="16" border="0" align="absmiddle" /></a>&nbsp;*</td></tr>
+    <tr><td>é©¾ç…§ç…§ç‰‡ï¼š</td><td><input name='jiazhaozhaopian' type='text' id='jiazhaozhaopian' value='' size='50' style='border:solid 1px #000000; color:#666666'  />&nbsp;<a href="javaScript:OpenScript('upfile.php?Result=jiazhaozhaopian',460,180)"><img src="Images/Upload.gif" width="30" height="16" border="0" align="absmiddle" /></a>&nbsp;*</td></tr>
+    <tr><td>èº«ä»½è¯ç…§ç‰‡ï¼š</td><td><input name='shenfenzhengzhaopian' type='text' id='shenfenzhengzhaopian' value='' size='50' style='border:solid 1px #000000; color:#666666'  />&nbsp;<a href="javaScript:OpenScript('upfile.php?Result=shenfenzhengzhaopian',460,180)"><img src="Images/Upload.gif" width="30" height="16" border="0" align="absmiddle" /></a>&nbsp;*</td></tr>
+    <tr><td>å‰©ä½™åˆ†æ•°ï¼š</td><td><input name='shengyufenshu' type='text' id='shengyufenshu' value='' style='border:solid 1px #000000; color:#666666' />&nbsp;*&nbsp;å¿…éœ€æ•°å­—å‹</td></tr>
+    <tr><td>é©¾é©¶è¯è¿‡æœŸæ—¶é—´ï¼š</td><td><input name='jiashizhengguoqishijian' type='text' id='jiashizhengguoqishijian' value='' onclick="WdatePicker({'dateFmt':'yyyy-MM-dd'})" style='border:solid 1px #000000; color:#666666;  width:90px;' />&nbsp;*</td></tr>
+    <tr><td>è½¦è¾†å®‰æ£€é€šè¿‡ï¼š</td><td><select name='chelianganjiantongguo' id='chelianganjiantongguo'><option value="æ˜¯">æ˜¯</option><option value="å¦">å¦</option></select>&nbsp;*</td></tr>
+    <tr><td>å®‰æ£€åˆ°æœŸæ—¥æœŸï¼š</td><td><input name='anjiandaoqiriqi' type='text' id='anjiandaoqiriqi' value='' onclick="WdatePicker({'dateFmt':'yyyy-MM-dd'})" style='border:solid 1px #000000; color:#666666;  width:90px;' /></td></tr>
+    
 
     <tr>
       <td>&nbsp;</td>
       <td><input type="hidden" name="addnew" value="1" />
-        <input type="submit" name="Submit" value="Ìí¼Ó" onclick="return check();"  style='border:solid 1px #000000; color:#666666' />
-      <input type="reset" name="Submit2" value="ÖØÖÃ" style='border:solid 1px #000000; color:#666666' /></td>
+        <input type="submit" name="Submit" value="æ·»åŠ " onclick="return check();"  style='border:solid 1px #000000; color:#666666' />
+      <input type="reset" name="Submit2" value="é‡ç½®" style='border:solid 1px #000000; color:#666666' /></td>
     </tr>
   </table>
 </form>
@@ -85,7 +131,7 @@ if ($addnew=="1" )
  		$rowscount=mysql_num_rows($query);
 		if($rowscount>0)
 		{
-			echo "<script>javascript:alert('¶Ô²»Æğ£¬ÄúÊäÈëµÄÕÊºÅÒÑ¾­´æÔÚ£¬ÇëÖØÊÔ!');history.back();</script>";
+			echo "<script>javascript:alert('å¯¹ä¸èµ·ï¼Œæ‚¨è¾“å…¥çš„å¸å·å·²ç»å­˜åœ¨ï¼Œè¯·é‡è¯•!');history.back();</script>";
 			exit;
 		}
 		
