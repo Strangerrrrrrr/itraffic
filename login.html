@@ -1,0 +1,101 @@
+
+
+
+
+<html>
+<head>
+    
+<title>交通违章一站式处理系统</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;	
+	
+}
+.STYLE2 {color: #FFFFFF; }
+.STYLE3 {color:#A3371D; font-size: 12px; }
+
+-->
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
+<script language="javascript">
+function check()
+{
+	if(document.form1.username.value=="" || document.form1.pwd.value=="" || document.form1.yzm.value=="")
+	{
+		alert("请输入完整");
+		return false;
+	}
+}
+</script>
+<body>
+<p>&nbsp;</p>
+<table width="1024" height="643" border="0" align="center" cellpadding="0" cellspacing="0" background="images/login.jpg">
+  <tr>
+    <td height="220" valign="bottom"><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <table width="72%" height="77" border="0" align="center">
+        <tr>
+          <td align="center"><div style="font-family:宋体; color:#FFFFFF;  WIDTH: 100%; FONT-WEIGHT: bold; FONT-SIZE: 28px; margin-top:5pt"> 交通违章一站式处理系统 </div></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><table width="452" height="154" border="0" align="center" cellpadding="0" cellspacing="0">
+      
+      <tr>
+        <td height="123" background="images/hsgbg2.gif"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="20">&nbsp;</td>
+          </tr>
+          <tr>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="52%"><table width="56%" border="0" align="right" cellpadding="0" cellspacing="0">
+                      <form name="form1" method="post" action="login.php">
+                        <tr>
+                          <td width="18%" height="30"><div align="center" class="STYLE3">用&nbsp;&nbsp;户</div></td>
+                          <td height="30" colspan="2"><input name="username" type="text" id="username"  style="height:20px; width:130px; border:solid 1px #cadcb2; font-size:12px; color:#81b432;">
+                              <input name="login" type="hidden" id="login" value="1"></td>
+                          </tr>
+                        <tr>
+                          <td height="30"><div align="center" class="STYLE3">密&nbsp;&nbsp;码</div></td>
+                          <td height="30" colspan="2"><input name="pwd" type="password" id="pwd"  style="height:20px; width:130px; border:solid 1px #cadcb2; font-size:12px; color:#81b432;"></td>
+                          </tr>
+                        <tr>
+                          <td height="30"><div align="center" class="STYLE3">权&nbsp;&nbsp;限</div></td>
+                          <td height="30" colspan="2"><select name="cx" id="cx" style="height:18px; width:130px; border:solid 1px #cadcb2; font-size:12px; color:#81b432;">
+                              <option value="管理员">管理员</option>
+                             
+                            </select>							</td>
+                          </tr>
+                        <tr>
+                          <td height="30"><div align="center" class="STYLE3">验证码</div></td>
+                          <td width="15%" height="30"><input name="yzm" type="text" id="yzm"  style="height:20px; width:45px; border:solid 1px #cadcb2; font-size:12px; color:#81b432;" /></td>
+                          <td width="46%"><img alt="刷新验证码" onClick="this.src='code.php?time='+new Date().getTime();" src="code.php?time='+new Date().getTime();" style="cursor:pointer"></td>
+                        </tr>
+                        <tr>
+                          <td height="30">&nbsp;</td>
+                          <td height="30"><input type="submit" name="Submit" value="登陆" onClick="return check();"></td>
+                          <td><input type="reset" name="Submit2" value="重置"></td>
+                        </tr>
+                      </form>
+                  </table></td>
+                </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>
+
