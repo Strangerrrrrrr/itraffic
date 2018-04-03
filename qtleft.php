@@ -6,7 +6,7 @@
 					<table width="100%" height="24" border="0" cellpadding="0" cellspacing="0">
                           <tr>
                             <td width="12%"></td>
-                            <td width="88%" valign="bottom"><span class="STYLE11">系统公告</span></td>
+                            <td width="88%" valign="bottom"><span class="STYLE11">绯荤粺鍏憡</span></td>
                           </tr>
                       </table>
 					</td>
@@ -19,7 +19,7 @@
                 scrollamount="1" scrolldelay="50">
                           <TABLE width="100%" height="100%" >
                       <TR><TD ><P><?php 
-					  $sql="select * from dx where leibie='系统公告'";
+					  $sql="select * from dx where leibie='绯荤粺鍏憡'";
 					  $query=mysql_query($sql);
 					  $rowscount=mysql_num_rows($query);
 					  if($rowscount>0)
@@ -44,7 +44,7 @@
 					<table width="100%" height="24" border="0" cellpadding="0" cellspacing="0">
                           <tr>
                             <td width="12%"></td>
-                            <td width="88%" valign="bottom"><span class="STYLE11">友情链接</span></td>
+                            <td width="88%" valign="bottom"><span class="STYLE11">鍙嬫儏閾炬帴</span></td>
                           </tr>
                       </table>
 					</td>

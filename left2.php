@@ -33,16 +33,16 @@ body {
                         <td height="119" colspan="2" align="center"><table width="91%" height="81" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
                               <td height="22" align="center"><img src="images/siteico.gif" width="16" height="16"></td>
-                              <td >系统作者：xxxxxx</td>
+                              <td >绯荤粺浣滆�咃細xxxxxx</td>
                             </tr>
                             <tr>
                               <td width="36" height="22" align="center"><img src="images/hsg6.gif"></td>
-                              <td ><p>指导老师：xxxxx<a href="yhzhgl.php" target="mainFrame"></a></p>
+                              <td ><p>鎸囧鑰佸笀锛歺xxxx<a href="yhzhgl.php" target="mainFrame"></a></p>
                                 </td>
                             </tr>
                             <tr>
                               <td width="36" height="22" align="center"><img src="images/hsg7.gif"></td>
-                              <td ><a href="mod.php" target="mainFrame">所在学校：xxxxx</a></td>
+                              <td ><a href="mod.php" target="mainFrame">鎵�鍦ㄥ鏍★細xxxxx</a></td>
                             </tr>
                           </table>
                         </td>
@@ -61,7 +61,7 @@ body {
                 <td width="184"  background="images/hsg4.gif"><table width="100%" height="26" border="0" cellpadding="0" cellspacing="0">
                    <tr>
                       <td width="14%"  height="25" align="center" valign="bottom">&nbsp;</td>
-                      <td width="86%" height="25"><span class="STYLE3"><strong>个人资料管理</strong></span></td>
+                      <td width="86%" height="25"><span class="STYLE3"><strong>涓汉璧勬枡绠＄悊</strong></span></td>
                     </tr>
                 </table></td>
               </tr>
@@ -71,7 +71,7 @@ body {
 					
 					<tr>
 					 <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-					  <td ><a href="yonghuzhuce_list2.php" target="mainFrame">个人资料管理</a></td>
+					  <td ><a href="yonghuzhuce_list2.php" target="mainFrame">涓汉璧勬枡绠＄悊</a></td>
 					</tr>
 					
 				  </table>
@@ -86,7 +86,7 @@ body {
                 <td width="184" background="images/hsg4.gif"><table width="100%" height="26" border="0" cellpadding="0" cellspacing="0">
                     <tr>
                       <td width="14%"  height="26" align="center" valign="bottom">&nbsp;</td>
-                      <td width="86%"><span class="STYLE3"><strong>我的违章信息管理</strong></span></td>
+                      <td width="86%"><span class="STYLE3"><strong>鎴戠殑杩濈珷淇℃伅绠＄悊</strong></span></td>
                     </tr>
                 </table></td>
               </tr>
@@ -94,11 +94,11 @@ body {
                 <td width="184"  style="display:none"  id="show2"><table width="91%" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tr>
                       <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                      <td ><a href="weizhangxinxi_list2.php" target="mainFrame">我的违章信息查询</a></td>
+                      <td ><a href="weizhangxinxi_list2.php" target="mainFrame">鎴戠殑杩濈珷淇℃伅鏌ヨ</a></td>
                     </tr>
 					<tr>
                       <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                      <td ><a href="shensu_list2.php" target="mainFrame">我的申诉查询</a></td>
+                      <td ><a href="shensu_list2.php" target="mainFrame">鎴戠殑鐢宠瘔鏌ヨ</a></td>
                     </tr>
                 </table></td>
               </tr>
@@ -112,7 +112,7 @@ body {
                 <tr >
                   <td width="184" background="images/hsg4.gif"><table width="100%" height="26" border="0" cellpadding="0" cellspacing="0">
                       <tr>
-                        <td width="90%"  height="26" align="center" valign="bottom"><span class="STYLE3"><strong>系统版权</strong></span></td>
+                        <td width="90%"  height="26" align="center" valign="bottom"><span class="STYLE3"><strong>绯荤粺鐗堟潈</strong></span></td>
                         <td width="10%">&nbsp;</td>
                       </tr>
                   </table></td>

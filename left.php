@@ -5,7 +5,6 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type="text/css">
-<!--
 body,td,th {
 	font-size: 12px;
 }
@@ -15,7 +14,6 @@ body {
 }
 .STYLE2 {color: #FFFFFF}
 .STYLE3 {color: #6d1d0a}
--->
 </style></head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 <table id="__01" width="184" border="0" cellpadding="0" cellspacing="0">
@@ -33,16 +31,16 @@ body {
                         <td height="119" colspan="2" align="center"><table width="91%" height="81" border="0" align="center" cellpadding="0" cellspacing="0">
                             <tr>
                               <td height="22" align="center"><img src="images/siteico.gif" width="16" height="16"></td>
-                              <td >ÏµÍ³×÷Õß£ºxxxxxx</td>
+                              <td >ç³»ç»Ÿä½œè€…ï¼šxxxxxx</td>
                             </tr>
                             <tr>
                               <td width="36" height="22" align="center"><img src="images/hsg6.gif"></td>
-                              <td ><p>Ö¸µ¼ÀÏÊ¦£ºxxxxx<a href="yhzhgl.php" target="mainFrame"></a></p>
+                              <td ><p>æŒ‡å¯¼è€å¸ˆï¼šxxxxx<a href="yhzhgl.php" target="mainFrame"></a></p>
                                 </td>
                             </tr>
                             <tr>
                               <td width="36" height="22" align="center"><img src="images/hsg7.gif"></td>
-                              <td ><a href="mod.php" target="mainFrame">ËùÔÚÑ§Ð££ºxxxxx</a></td>
+                              <td ><a href="mod.php" target="mainFrame">æ‰€åœ¨å­¦æ ¡ï¼šxxxxx</a></td>
                             </tr>
                           </table>
                         </td>
@@ -61,7 +59,7 @@ body {
                 <td width="184"  background="images/hsg4.gif"><table width="100%" height="26" border="0" cellpadding="0" cellspacing="0">
                    <tr>
                       <td width="14%"  height="25" align="center" valign="bottom">&nbsp;</td>
-                      <td width="86%" height="25"><span class="STYLE3"><strong>ÏµÍ³ÓÃ»§¹ÜÀí</strong></span></td>
+                      <td width="86%" height="25"><span class="STYLE3"><strong>ç³»ç»Ÿç”¨æˆ·ç®¡ç†</strong></span></td>
                     </tr>
                 </table></td>
               </tr>
@@ -70,11 +68,11 @@ body {
 				<table width="91%" border="0" align="center" cellpadding="0" cellspacing="0">
 					<tr>
 					 <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-					  <td ><a href="yhzhgl.php" target="mainFrame">¹ÜÀíÔ±¹ÜÀí</a></td>
+					  <td ><a href="yhzhgl.php" target="mainFrame">ç®¡ç†å‘˜ç®¡ç†</a></td>
 					</tr>
 					<tr>
 					 <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-					  <td ><a href="mod.php" target="mainFrame">¸öÈËÃÜÂë¹ÜÀí</a></td>
+					  <td ><a href="mod.php" target="mainFrame">ä¸ªäººå¯†ç ç®¡ç†</a></td>
 					</tr>
 				  </table>
 				 </td>
@@ -88,7 +86,7 @@ body {
                 <td width="184" background="images/hsg4.gif"><table width="100%" height="26" border="0" cellpadding="0" cellspacing="0">
                     <tr>
                       <td width="14%"  height="26" align="center" valign="bottom">&nbsp;</td>
-                      <td width="86%"><span class="STYLE3"><strong>½»¹æÐû´«À¸</strong></span></td>
+                      <td width="86%"><span class="STYLE3"><strong>äº¤è§„å®£ä¼ æ </strong></span></td>
                     </tr>
                 </table></td>
               </tr>
@@ -96,11 +94,11 @@ body {
                 <td width="184"  style="display:none"  id="show2"><table width="91%" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tr>
                       <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                      <td ><a href="xinwentongzhi_add.php?lb=½»¹æÐû´«À¸" target="mainFrame">½»¹æÐû´«À¸Ìí¼Ó</a></td>
+                      <td ><a href="xinwentongzhi_add.php?lb=äº¤è§„å®£ä¼ æ " target="mainFrame">äº¤è§„å®£ä¼ æ æ·»åŠ </a></td>
                     </tr>
                     <tr>
                       <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                      <td ><a href="xinwentongzhi_list.php?lb=½»¹æÐû´«À¸" target="mainFrame">½»¹æÐû´«À¸²éÑ¯</a></td>
+                      <td ><a href="xinwentongzhi_list.php?lb=äº¤è§„å®£ä¼ æ " target="mainFrame">äº¤è§„å®£ä¼ æ æŸ¥è¯¢</a></td>
                     </tr>
                 </table></td>
               </tr>
@@ -113,7 +111,7 @@ body {
                 <td width="184" background="images/hsg4.gif"><table width="100%" height="26" border="0" cellpadding="0" cellspacing="0">
                     <tr>
                       <td width="14%"  height="26" align="center" valign="bottom">&nbsp;</td>
-                      <td width="86%"><span class="STYLE3"><strong>ÓÃ»§ÐÅÏ¢¹ÜÀí</strong></span></td>
+                      <td width="86%"><span class="STYLE3"><strong>ç”¨æˆ·ä¿¡æ¯ç®¡ç†</strong></span></td>
                     </tr>
                 </table></td>
               </tr>
@@ -121,7 +119,7 @@ body {
                 <td width="184"   style="display:none"  id="show3"><table width="91%" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tr>
                       <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                      <td ><a href="yonghuzhuce_list.php" target="mainFrame">ÓÃ»§ÐÅÏ¢²éÑ¯</a></td>
+                      <td ><a href="yonghuzhuce_list.php" target="mainFrame">ç”¨æˆ·ä¿¡æ¯æŸ¥è¯¢</a></td>
                     </tr>
                 </table></td>
               </tr>
@@ -134,7 +132,7 @@ body {
                 <td width="184" background="images/hsg4.gif"><table width="100%" height="26" border="0" cellpadding="0" cellspacing="0">
                     <tr>
                       <td width="14%"  height="26" align="center" valign="bottom">&nbsp;</td>
-                      <td width="86%"><span class="STYLE3"><strong>Î¥ÕÂÐÅÏ¢¹ÜÀí</strong></span></td>
+                      <td width="86%"><span class="STYLE3"><strong>è¿ç« ä¿¡æ¯ç®¡ç†</strong></span></td>
                     </tr>
                 </table></td>
               </tr>
@@ -142,11 +140,11 @@ body {
                 <td width="184"   style="display:none"  id="show4"><table width="91%" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tr>
                       <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                      <td ><a href="yonghuzhuce_list3.php" target="mainFrame">Î¥ÕÂÐÅÏ¢Ìí¼Ó</a></td>
+                      <td ><a href="yonghuzhuce_list3.php" target="mainFrame">è¿ç« ä¿¡æ¯æ·»åŠ </a></td>
                     </tr>
                     <tr>
                       <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                      <td ><a href="weizhangxinxi_list.php" target="mainFrame">Î¥ÕÂÐÅÏ¢²éÑ¯</a></td>
+                      <td ><a href="weizhangxinxi_list.php" target="mainFrame">è¿ç« ä¿¡æ¯æŸ¥è¯¢</a></td>
                     </tr>
                 </table></td>
               </tr>
@@ -159,7 +157,7 @@ body {
                 <td width="184" background="images/hsg4.gif"><table width="100%" height="26" border="0" cellpadding="0" cellspacing="0">
                     <tr>
                       <td width="14%"  height="26" align="center" valign="bottom">&nbsp;</td>
-                      <td width="86%"><span class="STYLE3"><strong>ÉêËß¹ÜÀí</strong></span></td>
+                      <td width="86%"><span class="STYLE3"><strong>ç”³è¯‰ç®¡ç†</strong></span></td>
                     </tr>
                 </table></td>
               </tr>
@@ -168,7 +166,7 @@ body {
                     
                     <tr>
                       <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                      <td ><a href="shensu_list.php" target="mainFrame">ÉêËß²éÑ¯</a></td>
+                      <td ><a href="shensu_list.php" target="mainFrame">ç”³è¯‰æŸ¥è¯¢</a></td>
                     </tr>
                 </table></td>
               </tr>
@@ -184,7 +182,7 @@ body {
                   <td width="184" background="images/hsg4.gif"><table width="100%" height="26" border="0" cellpadding="0" cellspacing="0">
                       <tr>
                       <td width="14%"  height="26" align="center" valign="bottom">&nbsp;</td>
-                      <td width="86%"><span class="STYLE3"><strong>ÏµÍ³¹ÜÀí</strong></span></td>
+                      <td width="86%"><span class="STYLE3"><strong>ç³»ç»Ÿç®¡ç†</strong></span></td>
                     </tr>
                   </table></td>
                 </tr>
@@ -192,27 +190,27 @@ body {
                   <td width="184"    id="show7"><table width="91%" border="0" align="center" cellpadding="0" cellspacing="0">
                       <tr>
                         <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                        <td ><a href="shanchushuju.php" target="mainFrame">ÅúÁ¿É¾³ý</a></td>
+                        <td ><a href="shanchushuju.php" target="mainFrame">æ‰¹é‡åˆ é™¤</a></td>
                       </tr>
 					  <tr>
                         <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                        <td ><a href="youqinglianjie_add.php" target="mainFrame">ÓÑÇéÁ¬½ÓÌí¼Ó</a></td>
+                        <td ><a href="youqinglianjie_add.php" target="mainFrame">å‹æƒ…è¿žæŽ¥æ·»åŠ </a></td>
                       </tr>
                       <tr>
                         <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                        <td ><a href="youqinglianjie_list.php" target="mainFrame">ÓÑÇéÁ¬½Ó²éÑ¯</a></td>
+                        <td ><a href="youqinglianjie_list.php" target="mainFrame">å‹æƒ…è¿žæŽ¥æŸ¥è¯¢</a></td>
                       </tr>
 					  <tr>
                         <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                        <td ><a href="liuyanban_list.php" target="mainFrame">ÁôÑÔ¹ÜÀí</a></td>
+                        <td ><a href="liuyanban_list.php" target="mainFrame">ç•™è¨€ç®¡ç†</a></td>
                       </tr>
                       <tr>
                         <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                        <td ><a href="dx.php?lb=ÏµÍ³¼ò½é" target="mainFrame">ÏµÍ³¼ò½éÉèÖÃ</a></td>
+                        <td ><a href="dx.php?lb=ç³»ç»Ÿç®€ä»‹" target="mainFrame">ç³»ç»Ÿç®€ä»‹è®¾ç½®</a></td>
                       </tr>
 					  <tr>
                         <td width="36" height="22" align="center"><img src="images/hsg5.gif"></td>
-                        <td ><a href="dx.php?lb=ÏµÍ³¹«¸æ" target="mainFrame">ÏµÍ³¹«¸æÉèÖÃ</a></td>
+                        <td ><a href="dx.php?lb=ç³»ç»Ÿå…¬å‘Š" target="mainFrame">ç³»ç»Ÿå…¬å‘Šè®¾ç½®</a></td>
                       </tr>
                      
                   </table></td>
@@ -227,7 +225,7 @@ body {
                 <tr >
                   <td width="184" background="images/hsg4.gif"><table width="100%" height="26" border="0" cellpadding="0" cellspacing="0">
                       <tr>
-                        <td width="90%"  height="26" align="center" valign="bottom"><span class="STYLE3"><strong>ÏµÍ³°æÈ¨</strong></span></td>
+                        <td width="90%"  height="26" align="center" valign="bottom"><span class="STYLE3"><strong>ç³»ç»Ÿç‰ˆæƒ</strong></span></td>
                         <td width="10%">&nbsp;</td>
                       </tr>
                   </table></td>
