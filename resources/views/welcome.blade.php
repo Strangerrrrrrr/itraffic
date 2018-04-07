@@ -47,19 +47,14 @@ include_once 'php/conn.php';
       <table width="986" border="0" align="center" cellpadding="0" cellspacing="0" id="__01">
         <tr>
             <td>
-                @include('common/header')
+                
             </td>
         </tr>
         <tr>
             <td><table id="__01" width="986" border="0" cellpadding="0" cellspacing="0">
             <tr>
                 <td valign="top"><table id="__01" width="761" border="0" cellpadding="0" cellspacing="0">
-                <tr>
-                    <td><img src="images/1_02_01_01.gif" width="761" height="180" alt=""></td>
-                </tr>
-                <tr>
-                    <td>&nbsp;</td>
-                </tr>
+
                 <tr>
                     <td><table id="__01" width="761" height="259" border="0" cellpadding="0" cellspacing="0">
                     <tr>
@@ -80,8 +75,8 @@ include_once 'php/conn.php';
                             <tr>
                                 <td width="17" height="194" background="images/1_02_01_03_01_02_01.gif"></td>
                                 <td width="229" height="194" bgcolor="#FFFFFF"><?php 
-                        // if ($_SESSION['cx']=="" )
-                        // {
+                        if ($_SESSION['cx']=="" )
+                        {
                     ?>
                                 <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
                                     <form action="userlog_post.php" method="post" name="userlog" id="userlog">
@@ -113,12 +108,13 @@ include_once 'php/conn.php';
                                         <td height="38" colspan="3" align="center"><input type="submit" name="Submit" value="登陆" class="hsgbutton" onClick="return checklog();" />
                                             <input type="reset" name="Submit2" value="重置" class="hsgbutton" /></td>
                                     </tr>
+<!-- yonghuzhuceadd.php -->
                                     </form>
                                 </table>
                                 <?php 
-                                // }
-                    // else
-                    // {
+                                }
+                    else
+                    {
                     ?>
                                 <!-- <table width="93%" height="68%" border="0" align="center" cellpadding="0" cellspacing="0">
                                     <tr>
@@ -136,7 +132,7 @@ include_once 'php/conn.php';
                                     </tr>
                                 </table> -->
                                 <?php 
-                                // } 
+                                } 
                                 ?>
                                 </td>
                                 <td width="9" height="194" background="images/1_02_01_03_01_02_03.gif"></td>
@@ -226,7 +222,9 @@ include_once 'php/conn.php';
         </tr>
     </table>
         <el-container>
-            <el-header>Header</el-header>
+            <el-header>
+                @include('common/header')
+            </el-header>
             <el-container>
                 <el-aside width="200px">Aside</el-aside>
                 <el-container>
@@ -235,6 +233,7 @@ include_once 'php/conn.php';
                 </el-main>
                 <el-footer>Footer</el-footer>
                 </el-container>
+                <el-aside width="200px">Aside</el-aside>
             </el-container>
         </el-container>
       </div>
