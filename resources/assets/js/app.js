@@ -16,7 +16,8 @@ window.Vue = require('vue');
  */
 
 import ElementUI from 'element-ui';
-import 'element-theme-ink';
+import 'element-ui/lib/theme-chalk/index.css';
+// import 'element-theme-ink';
 
 Vue.use(ElementUI);
 

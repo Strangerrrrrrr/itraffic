@@ -18,9 +18,10 @@ include_once 'php/conn.php';
         <script defer src="{{ asset('js/semantic.min.js') }}"></script>
     </head>
 
-    <script language="javascript">
-        function checklog()
-        {
+
+<script language="javascript">
+    function checklog()
+    {
         if(document.userlog.username.value=="")
         {
             alert("请输入用户名");
@@ -39,8 +40,9 @@ include_once 'php/conn.php';
             document.userlog.yzm.focus();
             return false;
         }
-        }
-    </script>
+        document.userlog.submit();
+    }
+</script>
 
     <body>
       <div id="app">
@@ -49,7 +51,7 @@ include_once 'php/conn.php';
                 @include('common/header')
             </el-header>
             <el-container>
-                <el-main>
+                <el-main style="padding-top:0px;">
                     @include('components/board')
                 </el-main>
                 <el-aside>

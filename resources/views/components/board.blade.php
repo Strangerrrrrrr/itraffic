@@ -16,7 +16,7 @@
                 <i class="fas fa-info-circle"></i>
                 <a class="news-link" href="gg_detail.php?id=<?php echo $row['id'];?>">
                     <?php echo $row['biaoti']; ?>
-                    <?php echo date("Y-m-d",strtotime($row['addtime']));?>
+                    <span style="float:right;"><?php echo date("Y-m-d",strtotime($row['addtime']));?></span>
                 </a></div>
         <?php 
         endforeach;
