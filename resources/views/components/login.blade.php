@@ -21,7 +21,7 @@
                             <el-button plain size="small" name="Submit" onClick="return checklog();">登陆</el-button>
                             <!--  -->
                             <el-button plain size="small" name="Submit" onClick="return checklog();">
-                                <a style="color:#000;text-decoration:none;" href="yonghuzhuceadd.php">注册</a>
+                                <a style="color:#000;text-decoration:none;" href="/login">注册</a>
                             </el-button>
                         </el-form-item>
                     </el-form>
