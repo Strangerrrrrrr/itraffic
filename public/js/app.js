@@ -28781,12 +28781,14 @@ module.exports = __webpack_require__(198);
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_element_ui__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_element_ui___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_element_ui__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_element_ui_lib_theme_chalk_index_css__ = __webpack_require__(184);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_element_ui_lib_theme_chalk_index_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_element_ui_lib_theme_chalk_index_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_time__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_vue_time___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_vue_time__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_element_ui__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_element_ui___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_element_ui__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_element_ui_lib_theme_chalk_index_css__ = __webpack_require__(184);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_element_ui_lib_theme_chalk_index_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_element_ui_lib_theme_chalk_index_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_vue_time__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_vue_time___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_vue_time__);
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -28797,6 +28799,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 __webpack_require__(78);
 
 window.Vue = __webpack_require__(3);
+
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -28810,11 +28814,11 @@ window.Vue = __webpack_require__(3);
 
 
 
-Vue.use(__WEBPACK_IMPORTED_MODULE_0_element_ui___default.a);
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_element_ui___default.a);
 
-Vue.component('vue-time', __WEBPACK_IMPORTED_MODULE_2_vue_time___default.a);
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.component('vue-time', __WEBPACK_IMPORTED_MODULE_3_vue_time___default.a);
 
-var app = new Vue({
+var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
   el: '#app'
 });
 

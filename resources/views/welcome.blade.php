@@ -20,13 +20,6 @@ include_once 'php/conn.php';
 
 
 <script language="javascript">
-export default {
-  data() {
-    return {
-      showDate: false;
-    }
-  }
-}
     function checklog()
     {
         if(document.userlog.username.value=="")
@@ -53,6 +46,7 @@ export default {
 
     <body>
       <div id="app">
+      <template>
         <el-container>
             <el-header style="margin-bottom: 15px;">
                 @include('common/header')
@@ -71,7 +65,8 @@ export default {
                 @include('common/footer') 
             </el-footer>
         </el-container>
+      </template>
       </div>
-      <script src="{{ asset('js/app.js') }}"></script>
+      <script src="{{ mix('js/app.js') }}"></script>
     </body>
 </html>
