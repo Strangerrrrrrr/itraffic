@@ -20,6 +20,13 @@ include_once 'php/conn.php';
 
 
 <script language="javascript">
+export default {
+  data() {
+    return {
+      showDate: false;
+    }
+  }
+}
     function checklog()
     {
         if(document.userlog.username.value=="")

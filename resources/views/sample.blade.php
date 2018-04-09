@@ -12,6 +12,10 @@
 
         <title>i-Traffic | 交通违章一站式处理系统</title>
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/fa-svg-with-js.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/semantic.min.css') }}">
+        <script defer src="{{ asset('js/fontawesome-all.min.js') }}"></script>
+        <script defer src="{{ asset('js/semantic.min.js') }}"></script>
     </head>
 
     <body>

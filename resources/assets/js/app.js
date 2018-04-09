@@ -19,9 +19,11 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 // import 'element-theme-ink';
 
+import VueTime from 'vue-time'
+
 Vue.use(ElementUI);
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('vue-time', VueTime);
 
 const app = new Vue({
     el: '#app'

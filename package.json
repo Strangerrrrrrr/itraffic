@@ -21,6 +21,7 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
-        "element-theme-ink": "^0.1.0"
+        "element-theme-ink": "^0.1.0",
+        "vue-time": "0.0.5"
     }
 }

@@ -17,7 +17,8 @@
                 <a class="news-link" href="gg_detail.php?id=<?php echo $row['id'];?>">
                     <?php echo $row['biaoti']; ?>
                     <span style="float:right;"><?php echo date("Y-m-d",strtotime($row['addtime']));?></span>
-                </a></div>
+                </a>
+            </div>
         <?php 
         endforeach;
     }
