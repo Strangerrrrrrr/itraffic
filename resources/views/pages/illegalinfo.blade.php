@@ -10,39 +10,13 @@ include_once 'php/conn.php';
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{csrf_token()}}">
 
-        <title>i-Traffic | 交通违章一站式处理系统</title>
+        <title>违章信息查询 | 交通违章一站式处理系统</title>
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/fa-svg-with-js.css') }}">
         <link rel="stylesheet" href="{{ asset('css/semantic.min.css') }}">
         <script defer src="{{ asset('js/fontawesome-all.min.js') }}"></script>
         <script defer src="{{ asset('js/semantic.min.js') }}"></script>
     </head>
-
-
-<script language="javascript">
-    function checklog()
-    {
-        if(document.userlog.username.value=="")
-        {
-            alert("请输入用户名");
-            document.userlog.username.focus();
-            return false;
-        }
-        if(document.userlog.pwd1.value=="")
-        {
-            alert("请输入密码");
-            document.userlog.pwd1.focus();
-            return false;
-        }
-        if(document.userlog.yzm.value=="")
-        {
-            alert("请输入验证码");
-            document.userlog.yzm.focus();
-            return false;
-        }
-        document.userlog.submit();
-    }
-</script>
 
     <body>
       <div id="app">
@@ -53,13 +27,12 @@ include_once 'php/conn.php';
             </el-header>
             <el-container>
                 <el-main style="padding-top:0px;">
-                    @include('components/board')
+                  @include('components/cheatsearch') 
                 </el-main>
                 <el-aside>
                     @include('components/notice') 
                     <hr>
-                    @include('components/login')
-                    <!-- @include('components/cheatlogin') -->
+                    @include('components/cheatlogin')
                 </el-aside>
             </el-container>
             <el-footer>
@@ -69,6 +42,5 @@ include_once 'php/conn.php';
       </template>
       </div>
       <script src="{{ mix('js/app.js') }}"></script>
-      <script src="../node_modules/vue/vue.min.js"></script>
     </body>
 </html>

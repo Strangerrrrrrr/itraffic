@@ -20,7 +20,7 @@
                         <el-form-item>
                             <el-button plain size="small" name="Submit" onclick="return checklog()">登陆</el-button>
                             <el-button plain size="small">
-                                <a style="color:#000;text-decoration:none;" href="/login">注册</a>
+                                <a style="color:#000;text-decoration:none;" href="/register">注册</a>
                             </el-button>
                         </el-form-item>
                     </el-form>

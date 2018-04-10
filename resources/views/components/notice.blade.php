@@ -5,7 +5,7 @@
   <marquee border="0" direction="up" height="100%" onMouseOut="start()" onMouseOver="stop()" scrollamount="1"
     scrolldelay="50">
     <p>
-      <vue-time :show-date="showDate" show-day=""></vue-time>
+      <vue-time></vue-time>
       <?php 
         $sql="select * from dx where leibie='系统公告'";
         $query=mysqli_query($conn, $sql);

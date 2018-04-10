@@ -10018,6 +10018,10 @@ body {
   margin-bottom: 18px;
 }
 
+.el-input {
+  max-width: 300px;
+}
+
 .news-link {
   color: #000;
 }
